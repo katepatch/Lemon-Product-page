@@ -1,0 +1,21 @@
+header {
+    display: fixed;
+    top: 0;
+
+}
+.logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+li{
+   list-style: none;
+   display: flex;
+
+}
