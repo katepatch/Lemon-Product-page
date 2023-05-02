@@ -1,7 +1,7 @@
 # Lemon Product page
- 
+
 Build a Product Landing Page
-Objective: Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks
+Objective: Build an app that is functionally similar to <https://product-landing-page.freecodecamp.rocks>
 
 User Stories:
 
@@ -16,7 +16,22 @@ Within the form, there is an input field with id="email" where you can enter an 
 The #email input field should have placeholder text to let users know what the field is for</br>
 The #email input field uses HTML5 validation to confirm that the entered text is an email address</br>
 Within the form, there is a submit input with a corresponding id="submit"</br>
-When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit)</br>
+When you click the #submit element, the email is submitted to a static page (use this mock URL: <https://www.freecodecamp.com/email-submit>) </br>
 The navbar should always be at the top of the viewport</br>
 Your product landing page should have at least one media query</br>
 Your product landing page should utilize CSS flexbox at least once
+
+## Preview
+
+Deployed via Github [pages](https://katepatch.github.io/Lemon-Product-page/)
+
+## Screenshot
+
+![screenshot](./assets/Screenshot%202023-05-01%20at%2011.03.25%20PM.png)
+![screenshot](./assets/Screenshot%202023-05-01%20at%2011.03.49%20PM.png)
+
+## Questions
+
+For questions regarding this project or any others I can be reached at:</br>
+Github: [katepatch](https://github.com/katepatch)</br>
+Email: kate.epatch@gmail.com
