@@ -1,56 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lemon Page</title>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header id="header">
-      <div class="logo">
-        <img id="header-img" src="https://static.vecteezy.com/system/resources/previews/016/365/568/original/minimalist-hand-drawn-lemon-lemon-illustration-for-design-and-decoration-element-in-vintage-style-free-vector.jpg" alt="lemon logo">
-        <h1 id="lemon-logo">Lemons and Such</h1>
-      </div>
-      <nav id="nav-bar">
-        <ul>
-          <li><a class="nav-link" href="#lemongrab">Lemongrab</a></li>
-          <li><a class="nav-link" href="#drinks">Drinks</a></li>
-          <li><a class="nav-link" href="#such">Such-n-such</a></li>
-        </ul>
-        
-      </nav>
-    </header>
-    <div class="containter"></div>
-    <section id="lemon-mail">
-      <h2>When life gives you lemons...</h2>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input name="email" id="email" type="email" placeholder="Leaf your email address" required>
-      <input id="submit" type="submit" value="lets-a grow" class="btn">
-      </form>
-    </section>
-    <section id="lemongrab">
-      <iframe id="video" height="315" src="https://www.youtube.com/embed/yaH51Ad0KAc" frameborder="0" allowfullscreen>
-    </section>
-    <div class="container">
-    <section id="drinks">
-      <div class="grid">
-        <div class="icon"><i class="fa-regular fa-lemon"></i></div>
-      </section>
-      <section id="such">
-        <div>
-          <h2>Things to know about Lemons</h2>
-          <h3>Such as</h3>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/41a836b024.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Lemons</title>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="https://static.vecteezy.com/system/resources/previews/016/365/568/original/minimalist-hand-drawn-lemon-lemon-illustration-for-design-and-decoration-element-in-vintage-style-free-vector.jpg" alt="lemon logo"> 
+                <h1>Lemons and Such</h1>
+            </div>
+
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#Lemongrab">Lemongrab</a></li>
+                    <li><a class="nav-link" href="#Drinks">Drinks</a></li>
+                    <li><a class="nav-link" href="#Such">n'Such</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container"></div>
+
+        <section id="hero">
+          <h2>When life gives you lemons...</h2>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Leaf your email address" required>
+            <input id="submit" type="submit" value="lets-a grow" class="btn">
+            </form> 
           
+        </section>
+        
+        <section id="Lemongrab">
+          <iframe id="video" height="315" src="https://www.youtube.com/embed/yaH51Ad0KAc" frameborder="0" allowfullscreen></iframe> 
+        </section>
+        
+        <div class="container">
+          <section id="Drinks">
+            <div class="grid">
+              <div class="icon"><i class="fa-solid fa-lemon fa-2xl"></i></div>
+              <div class="desc">
+                <h2>Lemonade</h2>
+                <p>Drink an ice cold glass on a hot summa's day</p>
+              </div>
+            </div>
+            <div class="grid">
+              <div class="icon"><i class="fa-solid fa-mug-hot fa-2xl"></i></div>
+              <div class="desc">
+                <h2>Lemon Tea</h2>
+                <p>Darling you simply must have a slice of lemon with your tea. You simply must!</p>
+              </div>
+            </div>
+            <div class="grid">
+              <div class="icon"><i class="fa-solid fa-martini-glass-citrus fa-2xl"></i></div>
+              <div class="desc">
+                <h2>Garnish</h2>
+                <p>Coke or cocktail that is a good lookin garnish</p>
+              </div>
+            </div>
+          </div>
+          </section>
+          <section id="Such">
+            <div class="product" id="harvest">
+              <div class="level">Freshness</div>
+              <h2>Plucked</h2>
+              <ol>
+                <li>Grown in Mediterranean Regions</li>
+                <li>Ready when they are yellow and glossy</li>
+                <li>Easily stored</li>
+              </ol>
+            </div>
+            <div class="product" id="varieties">
+              <div class="level">Varieties</div>
+              <h2>Types</h2>
+              <ol>
+                <li>Bonnie Brae</li>
+                <li>Eureka</li>
+                <li>Lisbon</li>
+              </ol>
+            </div>
+            <div class="product" id="culinary">
+              <div class="level">Culinary</div>
+              <h2>Uses</h2>
+              <ol>
+                <li>Juice</li>
+                <li>Peel</li>
+                <li>Oil</li>
+              </ol>
+            </div>
+          </section>
+          <footer>
+            <a href="https://www.vecteezy.com/free-vector/lemon">Lemon Vectors by Vecteezy</a>
+            
+          </footer>
         </div>
-      </section>
-      </div>
-    <footer>
-      <a href="https://www.vecteezy.com/free-vector/lemon">Lemon Vectors by Vecteezy</a>
-      </footer>
-  </body>
+
+    </div>
+</body>
 </html>
